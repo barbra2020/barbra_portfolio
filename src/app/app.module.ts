@@ -8,9 +8,10 @@ import { HomeComponent } from './home/home.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { AboutComponent } from './about/about.component';
-import { MyWorkComponent } from './my-work/my-work.component';
-import { AcheivementComponent } from './acheivement/acheivement.component';
+import { AchievementsComponent } from './achievements/achievements.component';
 import { ContactComponent } from './contact/contact.component';
+
+
 
 @NgModule({
   declarations: [
@@ -19,9 +20,9 @@ import { ContactComponent } from './contact/contact.component';
     HeaderComponent,
     FooterComponent,
     AboutComponent,
-    MyWorkComponent,
-    AcheivementComponent,
+    AchievementsComponent,
     ContactComponent
+    
   ],
   imports: [
     BrowserModule,
