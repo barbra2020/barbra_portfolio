@@ -7,7 +7,6 @@ import { ScullyLibModule } from '@scullyio/ng-lib';
 import { HomeComponent } from './home/home.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
-import { AboutComponent } from './about/about.component';
 import { AchievementsComponent } from './achievements/achievements.component';
 import { ContactComponent } from './contact/contact.component';
 
@@ -19,7 +18,6 @@ import { ContactComponent } from './contact/contact.component';
     HomeComponent,
     HeaderComponent,
     FooterComponent,
-    AboutComponent,
     AchievementsComponent,
     ContactComponent
     
