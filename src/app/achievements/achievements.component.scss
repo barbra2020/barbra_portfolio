@@ -1,11 +1,13 @@
 .skill-cards {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .skill-card {
     width: 400px;
     height: 200px;
     border: 1px solid grey;
+    margin: 10px;
     header {
         display: flex;
         h2 {
