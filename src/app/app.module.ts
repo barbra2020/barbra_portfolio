@@ -9,7 +9,6 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { AchievementsComponent } from './achievements/achievements.component';
 import { ContactComponent } from './contact/contact.component';
-import { BlogComponent } from './blog/blog.component';
 
 
 
@@ -21,8 +20,6 @@ import { BlogComponent } from './blog/blog.component';
     FooterComponent,
     AchievementsComponent,
     ContactComponent,
-    BlogComponent
-    
   ],
   imports: [
     BrowserModule,
