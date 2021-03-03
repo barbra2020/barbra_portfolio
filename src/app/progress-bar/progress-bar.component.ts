@@ -7,6 +7,7 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class ProgressBarComponent implements OnInit {
   @Input() progress:string;
+  @Input() color: string = "orange";
   constructor() { }
 
   ngOnInit(): void {

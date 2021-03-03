@@ -1,10 +1,21 @@
+.container {
+  position: relative;
+}
+
 .progress-bg {
+  position: absolute;
+  left: 0px;
+  top: 0px;
   height: 20px;
   width: 100%;
-  background-color:rgb(127, 127, 221);
+  background-color: blue;
+  opacity: 0.6;
 }
 .progress-fg {
+  position: absolute;
+  left: 0px;
+  top: 0px;
   height: 20px;
   width: 70%;
-  background-color:  blue;
+  background-color: blue;
 }
