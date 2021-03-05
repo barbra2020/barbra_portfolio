@@ -26,3 +26,14 @@
   margin: 10px;
   padding-left: 10px;
 }
+.certificates{
+  display: flex;
+}
+.certificate{
+  display: flex;
+  flex-direction: column;
+  padding:20px ;
+  img {
+    width: 200px;
+  }
+}
