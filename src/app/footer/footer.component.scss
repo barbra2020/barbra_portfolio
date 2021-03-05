@@ -5,3 +5,10 @@ footer {
     padding: 10px;
     font-size: 15px;
 }
+.container {
+    display: flex;
+    flex-direction: row;
+  }
+  .column{
+   width: 50%;
+  }
