@@ -1,6 +1,8 @@
+$headerColor: rgb(0, 119, 255);
+
 header {
     flex: none;
-    background-color: rgb(0, 119, 255);
+    background-color: $headerColor;
     color: white;
     padding: 20px;
     font-size: 30px;
@@ -9,5 +11,18 @@ header {
 
 .links{
     display: flex;
-    justify-content: space-around; 
+    justify-content: space-around;
+
+    .menu-item {
+
+        .sub-menu {
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            background-color: $headerColor;
+            min-width: 160px;
+            box-shadow: 0 8px 16px 0 rgb(0 0 0 / 20%);
+        }
+
+    }
 }
