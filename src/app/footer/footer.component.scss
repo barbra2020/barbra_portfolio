@@ -1,6 +1,6 @@
 footer {
     flex: none;
-    background-color: rgb(127, 127, 243);
+    background-color: var(--header-color, #B34DD2);
     color: white;
     padding: 10px;
     font-size: 15px;
