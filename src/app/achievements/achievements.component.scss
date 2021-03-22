@@ -16,7 +16,8 @@
     padding: 10px;
     h2 {
       flex-grow: 2;
-      
+      font-family:Bungee ;
+      font-size: 15px;
     }
     .icon {
       width: 50px;
@@ -31,7 +32,7 @@
   display: flex;
   max-width: 100%;
   flex-wrap: wrap;
-  overflow: scroll;
+  
 }
 .certificate{
   display: flex;
@@ -42,4 +43,8 @@
   img {
     width: 200px;
   }
+}
+.github1-icon {
+  width: 40px;
+  margin: 20px;
 }
