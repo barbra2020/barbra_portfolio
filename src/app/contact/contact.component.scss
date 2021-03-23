@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+
+form {
+  flex: 1;
+  background-color: #271f74;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+.contact-icon {
+  width: 40px;
+  margin: 20px;
+}
+
+.contact-details {
+  flex: 1;
+  padding-left: 50px;
+  background-color: #b8b8f5;
+}
+.gmail-icon {
+  width: 40px;
+  margin: 20px;
+}
+.linkedin-icon {
+  width: 40px;
+  margin: 20px;
+}
+.github1-icon {
+  width: 40px;
+  margin: 20px;
+}

@@ -1,13 +1,26 @@
 header {
-    flex: none;
-    background-color: rgb(255, 0, 106);
+    flex: 1;
+    background-color: var(--header-color, #B34DD2);
     color: white;
     padding: 20px;
-    font-size: 20px;
+    font-size: 30px;
+    font-family: 'Montserrat Subrayada';
 }
-
 
 .links{
     display: flex;
-    justify-content: space-around; 
+    justify-content: space-around;
+
+    .menu-item {
+
+        .sub-menu {
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            background-color: var(--header-color, #B34DD2);
+            min-width: 160px;
+            box-shadow: 0 8px 16px 0 rgb(0 0 0 / 20%);
+        }
+
+    }
 }

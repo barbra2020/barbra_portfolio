@@ -1,20 +1,26 @@
-<h3>Contact Form</h3>
-<form>
+<h2>To get in touch with me </h2>
 <div class="container">
-    <label for="fname">First name:</label><br>
-    <input type="text" id="fname" name="fname"><br>
-    <label for="lname">Last name:</label><br>
-    <input type="text" id="lname" name="lname" ><br>
-    <label for="lname">Email Adress:</label><br>
-    <input type="text" id="lname" name="lname"><br>
-    <label for="lname">Github Account:</label><br>
-    <input type="text" id="lname" name="lname"><br>
-    <label for="lname">Phone Number:</label><br>
-    <input type="text" id="lname" name="lname"><br>
+    <form action="https://mailthis.to/bmootian@gmail.com" method="POST">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" placeholder="Your First Name"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" placeholder="Your Last Name"><br>
+        <label for="_replyto">Your Email:</label><br>
+        <input type="email" name="_replyto" placeholder="Your email"><br>
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="8" width="100%"
+            placeholder="Write your message to Barbra"></textarea>
+        <br>
+        <input type="submit" value="Send Message">
+    </form>
+    <div class="contact-details">
+        <img class="contact-icon" src="assets/images/phone.png">
+        <a href="tel:+254758844241">07-58-844241</a><br>
+        <img class="gmail-icon" src="assets/images/gmail.png">
+        <a href="email:bmootian@gmail.com">bmootian@gmail.com</a><br>
+        <img class="linkedin-icon" src="assets/images/linkedin.png">
+        <a href="linkedin: https://www.linkedin.com/in/barbra-mootian-03132b1a8/">https://www.linkedin.com/in/barbra-mootian-03132b1a8/</a><br>
+        <img class="github1-icon" src="assets/images/github1.svg">
+        <a href="github1:https://github.com/barbramootian">https://github.com/barbramootian</a><br>
     </div>
-       
-        Comment:<br>
-        <input type="text" name="comment" size="50"><br><br>
-        <input type="submit" value="Send">
-        <input type="reset" value="Reset">
-        </form>
+</div>

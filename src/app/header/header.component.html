@@ -1,9 +1,21 @@
 <header>
     Barbra's portfolio
     <div class="links">
-        <a href="">Home</a> 
-        <a href="/achievements">Achievements</a>
-        <a href="/contact">Contact</a>
-        
+        <div class="menu-item">
+            <a href="">Home</a>
+        </div>
+        <div class="menu-item" (mouseenter)="achievementsSubMenuOpen = true"
+         (mouseleave)="achievementsSubMenuOpen = false">
+            <a href="/achievements">Achievements</a>
+            <div *ngIf="achievementsSubMenuOpen" class="sub-menu">
+                <a href="/achievements#skills">Skills</a>
+                <a href="/achievements#projects">Projects</a>
+                <a href="/achievements#certificates">Certificates</a>
+               
+            </div>
+        </div>
+        <div class="menu-item">
+            <a href="/contact">Contact</a>
+        </div>
     </div>
 </header>

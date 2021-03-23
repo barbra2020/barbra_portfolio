@@ -1,0 +1,51 @@
+.skill-cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skill-card {
+  width: 400px;
+  height: 200px;
+  border: 2px solid rgb(131, 45, 230);
+  margin: 10px;
+  font-size: 13px;
+  padding-left:10px ;
+
+  header {
+    display: flex;
+    padding: 10px;
+    h2 {
+      flex-grow: 2;
+      font-family:Bungee ;
+      font-size: 15px;
+      
+    }
+    .icon {
+      width: 50px;
+    }
+  }
+}
+.progress-bar {
+  margin: 10px;
+  padding-left: 10px;
+}
+.certificates{
+  display: flex;
+  max-width: 100%;
+  flex-wrap: wrap;
+  
+}
+.certificate{
+  display: flex;
+  flex-direction: column;
+ 
+  
+  padding:20px ;
+  img {
+    width: 200px;
+  }
+}
+.github1-icon {
+  width: 40px;
+  margin: 20px;
+}
