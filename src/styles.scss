@@ -10,3 +10,6 @@ html, body {
     color: black;
     --h2-color: #4e2aa3e0;
 }
+h2 {
+    color: var(--h2-color, #4e2aa3e0);
+}
