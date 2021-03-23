@@ -10,6 +10,7 @@ import { FooterComponent } from './footer/footer.component';
 import { AchievementsComponent } from './achievements/achievements.component';
 import { ContactComponent } from './contact/contact.component';
 import { ProgressBarComponent } from './progress-bar/progress-bar.component';
+import { ProjectsComponent } from './projects/projects.component';
 
 
 
@@ -22,6 +23,7 @@ import { ProgressBarComponent } from './progress-bar/progress-bar.component';
     AchievementsComponent,
     ContactComponent,
     ProgressBarComponent,
+    ProjectsComponent,
   ],
   imports: [
     BrowserModule,
