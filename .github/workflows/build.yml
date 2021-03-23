@@ -16,16 +16,14 @@ jobs:
       - name: Cache node modules
         uses: actions/cache@v1
         with:
-          path: ~/.npm
-          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
-          restore-keys: |
-            ${{ runner.os }}-node-
+          path: ./node_modules
+          key: ${{ runner.os }}-node-yarn-${{ hashFiles('**/yarn.lock') }}
       - name: Node 12.x
         uses: actions/setup-node@v1
         with:
           node-version: 12.x
-      - name: npm install
-        run: npm install
+      - name: yarn install
+        run: yarn install
       - name: npm run build
         run: npm run build
       - name: Deploy
