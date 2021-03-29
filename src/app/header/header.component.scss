@@ -1,6 +1,6 @@
 header {
     flex: 1;
-    background-color: var(--header-color, #B34DD2);
+    background-color: var(--header-color,orange);
     color: white;
     padding: 20px;
     font-size: 30px;
@@ -17,7 +17,7 @@ header {
             display: flex;
             flex-direction: column;
             position: absolute;
-            background-color: var(--header-color, #B34DD2);
+            background-color: var(--header-color, #5040af );
             min-width: 160px;
             box-shadow: 0 8px 16px 0 rgb(0 0 0 / 20%);
         }
