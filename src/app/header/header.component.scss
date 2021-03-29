@@ -24,3 +24,22 @@ header {
 
     }
 }
+
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .links {
+        font-size: 20px;
+        flex-wrap: wrap;
+
+        * {
+            margin-right: 10px;
+        }
+    }
+}
+
+@media only screen and (max-width: 340px) {
+    .links {
+        font-size: 14px;
+    }
+}
