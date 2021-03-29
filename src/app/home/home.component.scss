@@ -4,12 +4,20 @@
    flex-direction: row;
 }
 .left-column{
-  width: 30%;
+  width: 70%;
 
 }
 .right-column{
   width: 70%;
+  padding: 20px;
 
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .container {
+    flex-direction: column;
+  }
 }
 .my-picture{
   width: 100%;
