@@ -1,4 +1,14 @@
-container{
-display: flex;
-flex-direction: row;
-}
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .project {
+    width: 400px;
+    height: 200px;
+    border: 2px solid rgb(230, 45, 116);
+   justify-content: space-between;
+   margin: 20px;
+    font-size: 13px;
+    
+  }
