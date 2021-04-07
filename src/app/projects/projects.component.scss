@@ -1,15 +1,29 @@
 .projects {
-    display: flex;
-    flex-wrap: wrap;
-    
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.project {
+  width: 100%;
+  min-width: 400px;
+  border: 2px solid indigo;
+  justify-content: space-between;
+  margin: 20px;
+
+  h1 {
+      font-size: 32px;
   }
-  
-  .project {
-    width: 400px;
+}
+.description {
+  display: flex;
+  flex-direction: row;
+
+  img {
     height: 200px;
-    border: 2px solid indigo;
-   justify-content: space-between;
-   margin: 20px; 
-    font-size: 13px;
-    
   }
+
+  ul {
+    flex-grow: 1;
+    font-size: 24px;
+  }
+}
