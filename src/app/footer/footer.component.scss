@@ -14,12 +14,12 @@ footer {
 }
 .contact-details {
   display: flex;
-  padding-left: 50px;
+  padding-left: 100px;
   flex-direction: row;
   
 }
 .gmail-icon {
-  width: 40px;
+  width: 60px;
   margin: 20px;
 }
 .contact-icon {
@@ -27,10 +27,17 @@ footer {
     margin: 20px;
   }
 .linkedin-icon {
-  width: 40px;
+  width: 50px;
   margin: 20px;
 }
 .github1-icon {
-  width: 40px;
+  width: 60px;
   margin: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .contact-details {
+    flex-direction:row;
+  }
 }
