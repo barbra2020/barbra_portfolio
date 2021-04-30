@@ -1,7 +1,7 @@
 .skill-cards {
   display: flex;
   flex-wrap: wrap;
-  
+  background-color:#55BCC9 ;
 }
 
 .skill-card {
@@ -50,4 +50,8 @@
 .github1-icon {
   width: 40px;
   margin: 20px;
+}
+
+.p{
+  font-size: 10px;
 }
