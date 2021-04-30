@@ -2,6 +2,7 @@
   display: flex;
   flex-wrap: wrap;
    flex-direction: row;
+   background-color:#55BCC9 ;
 }
 .project {
   width: 100%;
@@ -13,7 +14,7 @@
 .description {
   display: flex;
   flex-direction: row;
-
+  
   img {
     height: 200px;
     width: 100%;
